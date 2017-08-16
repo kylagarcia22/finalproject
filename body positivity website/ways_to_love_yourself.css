@@ -1,3 +1,7 @@
+body{
+  background-color: #A27D95;
+}
+
 img{
   display: block;
   margin: auto;
@@ -7,4 +11,5 @@ img{
 h1, h3, p{
   text-align: center;
   margin: 100px;
+  color: #F5E9E2;
 }
