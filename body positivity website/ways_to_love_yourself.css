@@ -1,0 +1,10 @@
+img{
+  display: block;
+  margin: auto;
+  width: 40%
+}
+
+h1, h3, p{
+  text-align: center;
+  margin: 100px;
+}
