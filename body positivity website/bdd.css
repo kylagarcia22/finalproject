@@ -1,0 +1,47 @@
+body{
+  background-color: #c5b5e1 !important;
+}
+
+.right {
+  float: right;
+  left: 100%;
+  top: 50%;
+  height: 0;
+  width: 0;
+  position: fixed;
+	margin-left: -26.8px;
+}
+.left {
+  float: left;
+  right: 100%;
+	top: 50%;
+	height: 0;
+	width: 0;
+	position: fixed;
+}
+
+h1, h3, p, li{
+  color: #fff4fd !important;
+}
+
+h1 {
+  font-family: 'Leckerli One', cursive;
+  font-size: 100px;
+  text-align: center;
+  margin: 50px;
+}
+
+h3 {
+  font-family: 'Amaranth', sans-serif;
+  font-size: 60px;
+}
+
+p{
+  font-family: 'Hind', sans-serif;
+  font-size: 18px;
+}
+
+li{
+  font-family: 'Hind', sans-serif;
+  font-size: 18px;
+}

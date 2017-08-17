@@ -1,5 +1,5 @@
 body{
-  background-color: #A27D95;
+  background-color: #c5b5e1 !important;
 }
 
 img{
@@ -7,9 +7,38 @@ img{
   margin: auto;
   width: 40%
 }
+h3 {
+  font-family: 'Amaranth', sans-serif ;
+  font-size: 60px;
+}
 
 h1, h3, p{
   text-align: center;
   margin: 100px;
-  color: #F5E9E2;
+  color: #fff4fd !important;
+}
+p {
+  font-family: 'Hind', sans-serif ;
+  font-size: 18px;
+}
+h1 {
+  font-family: 'Leckerli One', cursive ;
+  font-size: 100px;
+}
+.right {
+  float: right;
+  left: 100%;
+  top: 50%;
+  height: 0;
+  width: 0;
+  position: fixed;
+	margin-left: -40px;
+}
+.left {
+  float: left;
+  right: 100%;
+	top: 50%;
+	height: 0;
+	width: 0;
+	position: fixed;
 }

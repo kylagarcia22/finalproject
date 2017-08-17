@@ -1,0 +1,41 @@
+body{
+  background-color: #c5b5e1 !important;
+}
+
+.left {
+  float: left;
+  right: 100%;
+	top: 50%;
+	height: 0;
+	width: 0;
+	position: fixed;
+}
+h1 {
+  font-family: 'Leckerli One', cursive;
+  font-size: 100px;
+}
+
+
+p {
+  font-family: 'Hind', sans-serif;
+  font-size: 18px;
+}
+
+h2, h3 {
+  font-family: 'Amaranth', sans-serif;
+  font-size: 40px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+h1, h2, h3, p {
+  text-align: center;
+  color: #fff4fd !important;
+}

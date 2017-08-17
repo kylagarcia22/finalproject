@@ -19,3 +19,19 @@ body{
 	width: 0;
 	position: fixed;
 }
+
+h1, p{
+  color: #fff4fd !important;
+}
+
+h1{
+  font-family: 'Leckerli One', cursive;
+  font-size: 100px;
+  text-align: center;
+  margin: 50px ;
+}
+
+p{
+  font-family: 'Hind', sans-serif
+  font-size: 18px;
+}

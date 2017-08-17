@@ -1,0 +1,40 @@
+body{
+  background-color: #c5b5e1 !important;
+}
+
+h1, p{
+  color: #fff4fd !important;
+}
+
+h1 {
+  font-family: 'Leckerli One', cursive !important;
+  font-size: 100px;
+  text-align: center;
+}
+
+p{
+  font-family: 'Hind', sans-serif !important;
+  font-size: 18px;
+}
+
+img{
+  display: block;
+  margin: auto;
+}
+.right {
+  float: right;
+  left: 100%;
+  top: 50%;
+  height: 0;
+  width: 0;
+  position: fixed;
+	margin-left: -26.8px;
+}
+.left {
+  float: left;
+  right: 100%;
+	top: 50%;
+	height: 0;
+	width: 0;
+	position: fixed;
+}
