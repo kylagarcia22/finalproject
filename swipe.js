@@ -1,4 +1,4 @@
-function swipedetect(el, callback){
+//function swipedetect(el, callback){
 
     var touchsurface = el,
     swipedir,
@@ -13,7 +13,7 @@ function swipedetect(el, callback){
     startTime,
     handleswipe = callback || function(swipedir){}
 
-    touchsurface.addEventListener('touchstart', function(e){
+  // touchsurface.addEventListener('touchstart', function(e){
         var touchobj = e.changedTouches[0]
         swipedir = 'none'
         dist = 0
@@ -23,11 +23,11 @@ function swipedetect(el, callback){
         e.preventDefault()
     }, false)
 
-    touchsurface.addEventListener('touchmove', function(e){
+// touchsurface.addEventListener('touchmove', function(e){
         e.preventDefault() // prevent scrolling when inside DIV
     }, false)
 
-    touchsurface.addEventListener('touchend', function(e){
+//touchsurface.addEventListener('touchend', function(e){
         var touchobj = e.changedTouches[0]
         distX = touchobj.pageX - startX // get horizontal dist traveled by finger while in contact with surface
         distY = touchobj.pageY - startY // get vertical dist traveled by finger while in contact with surface
