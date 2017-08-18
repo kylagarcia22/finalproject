@@ -5,40 +5,70 @@
   <head>
 
     <meta charset="utf-8">
-    <title> Body Positive ! </title>
-    <link rel="stylesheet" href="swipe.js">
+    <title> Have Confidence in Urself ! </title>
+    <link rel="stylesheet" href="">
     <link rel="stylesheet" href="slide3.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Amaranth:700|Hind|Leckerli+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
   </head>
 
 <body>
 
-  <a href="slide2.html" class= "left">
-    <button type="button" class="btn btn-default" aria-label="Left Align">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true">
-      </span>
-    </button>
-  </a>
-
-  <a href="slide4.html" class = "right">
-    <button type="button" class="btn btn-default" aria-label="Left Align">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true">
-      </span>
-    </button>
-  </a>
-
+<div id="fullpage">
+  <div class="section"
   <h1>Why Girls Should Love Themselves</h1>
   <div class="container">
   <img src="Bodypos.jpg" class="rounded mx-auto d-block" alt="campaign picture" height = "360">
   </div>
+</div>
 
+<div class="section">
+<p>All women come in different shapes and sizes. Body positivity is about accepting and loving the body that you are in and accepting that your body may change and that’s okay. As teenage girls we become infatuated with the idea of having the bodies that the celebrities we follow have and forget that our bodies are beautiful too. You do not have to love your body 24/7, but do understand that all bodies are valuable. </p>
+</div>
 
-<p> All women come in different shapes and sizes. Body positivity is about accepting and loving the body that you are in and accepting that your body may change and that’s okay. As teenage girls we become infatuated with the idea of having the bodies that the celebrities we follow have and forget that our bodies are beautiful too. You do not have to love your body 24/7, but do understand that all bodies are valuable. It is critical that you make the distinction that your body does not determine your worth as a person. No matter what you look like you are still beautiful. Your appearance does not define who you are and should not limit what you want to do. It’s important to stop forcing yourself to fit into an impossible cultural standard. We are all women and should empower each other not tear each other down. It’s also important to acknowledge that if you are unhealthy or wish to change yourself doesn’t mean that you are not beautiful. Going to the gym and wanting to work out is not a bad thing, but it should not be done because you want to look like someone else but rather because you want healthier and happier lifestyle. We know that by exploring our website you will not automatically love your body, but we hope it steers you in a journey of self-love.
-</p>
+<div class="section">
+<p>It is critical that you make the distinction that your body does not determine your worth as a person. No matter what you look like you are still beautiful. Your appearance does not define who you are and should not limit what you want to do. It’s important to stop forcing yourself to fit into an impossible cultural standard. </p>
+</div>
 
+<div class="section">
+<p>We are all women and should empower each other not tear each other down. It’s also important to acknowledge that if you are unhealthy or wish to change yourself doesn’t mean that you are not beautiful. Going to the gym and wanting to work out is not a bad thing, but it should not be done because you want to look like someone else but rather because you want healthier and happier lifestyle. </p>
+</div>
+
+<div class="section">
+<p>We know that by exploring our website you will not automatically love your body, but we hope it steers you in a journey of self-love.</p>
+</div>
+
+</div>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+<a href="slide2.html" class= "left">
+  <button type="button" class="btn btn-default" aria-label="Left Align">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true">
+    </span>
+  </button>
+</a>
+
+<a href="slide4.html" class = "right">
+  <button type="button" class="btn btn-default" aria-label="Left Align">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true">
+    </span>
+  </button>
+</a>
+
+<!--Script to link jquery.fullPage.js-->
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+    <!--Script for fullpage.js-->
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#fullpage').fullpage({
+          bigSectionsDestination: top,
+          controlArrows: false,
+          anchors:['header', 'slide1', 'slide2', 'slide3', 'slide4', 'slide5', 'slide6']});});
+    </script>
+
 
 
 </body>

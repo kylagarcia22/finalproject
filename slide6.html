@@ -2,38 +2,40 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <link rel="stylesheet" href="swipe.js">
+      <link rel="stylesheet" href="">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="slide6.css">
     <link href="https://fonts.googleapis.com/css?family=Amaranth|Hind|Leckerli+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
     <title>Body Dismorphic Disorder</title>
 
   </head>
 
   <body>
-  <a href="slide5.html" class = left>
-    <button type="button" class="btn btn-default" aria-label="Left Align">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    </button>
-  </a>
-  <a href="slide7.html" class="right">
-    <button type="button" class="btn btn-default" aria-label="Left Align">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    </button>
-  </a>
 
+<div id="fullpage">
+
+  <div class="section">
     <h1>Body Dismorphic Disorder (BDD)</h1>
     <p>Body image disorder is characterized by persistent and intrusive preoccupations with an imagined or slight defect in one's appearance.
 The flaw is usually insignificant but those who suffer from BDD view their flaws as significant and prominent, often causing severe emotional distress and difficulties in daily functioning.<br>
 BDD mostly develops in adolescents and teens. Research shows that it affects men and women almost equally. About one percent of the U.S. population has BDD.<br>
-It is important to note that not everyone who deals with body image issues suffers from a mental disorder. Please keep this mind as you read the rest of this page.
+It is important to note that not everyone who deals with body image issues suffers from a mental disorder. Please keep this mind as you read the rest of this page.</p>
+</div>
+
+<div class="section">
   <h3>Causes</h3>
-  The causes for body dysmorphic disorder include:
+  <p>The causes for body dysmorphic disorder include:</p>
     <li>Genetic predisposition</li>
     <li>Neurobiological factors (ex. malfunctioning of serotonin in the brain)</li>
     <li>Personality traits</li>
-    <li>Life experiences</li><br>
+    <li>Life experiences</li><
+  </div>
+
+  <div class="section">
   <h3>Symptoms</h3>
     <li>Camouflaging (with body position, clothing, makeup, hair, hats, etc.)</li>
     <li>Comparing body part to others' appearance</li>
@@ -44,10 +46,40 @@ It is important to note that not everyone who deals with body image issues suffe
     <li>Excessive grooming</li>
     <li>Excessive exercises</li>
     <li>Changing clothes excessively</li>
-  <h3>Treatment</h3>
-<p>Talk to a doctor or a medical professional.</p>
-  <img src="http://images.huffingtonpost.com/2014-11-05-Fotolia_24725585_S-thumb.jpg" alt="bdd">
-  <img src="https://i2.wp.com/danireviewsthings.com/wp-content/uploads/2016/03/i-do-look-awful.gif?resize=499%2C230" alt="awful">
+  </div>
+
+    <div class="section">
+        <h3>Treatment</h3>
+      <p>Talk to a doctor or a medical professional.</p>
+        <img src="http://images.huffingtonpost.com/2014-11-05-Fotolia_24725585_S-thumb.jpg" alt="bdd">
+        <img src="https://i2.wp.com/danireviewsthings.com/wp-content/uploads/2016/03/i-do-look-awful.gif?resize=499%2C230" alt="awful">
+    </div>
+
+</div>
+
+<a href="slide5.html" class = left>
+  <button type="button" class="btn btn-default" aria-label="Left Align">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+  </button>
+</a>
+<a href="slide7.html" class="right">
+  <button type="button" class="btn btn-default" aria-label="Left Align">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+  </button>
+</a>
+
+
+  <!--Script to link jquery.fullPage.js-->
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+    <!--Script for fullpage.js-->
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#fullpage').fullpage({
+          bigSectionsDestination: top,
+          controlArrows: false,
+          anchors:['header', 'slide1', 'slide2', 'slide3', 'slide4', 'slide5', 'slide6']});});
+    </script>
+
 
   </body>
 </html>

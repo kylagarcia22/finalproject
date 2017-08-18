@@ -9,7 +9,7 @@ body{
 }
 .left {
   float: left;
-  right: 100%;
+  right: 80%;
 	top: 50%;
 	height: 0;
 	width: 0;
@@ -17,7 +17,7 @@ body{
 }
 .right {
   float: right;
-  left: 100%;
+  left: 80%;
   top: 50%;
   height: 0;
   width: 0;
@@ -36,11 +36,17 @@ h1 {
 }
 
 p {
-  font-family: 'Hind', sans-serif !important;
-  font-size: 18px;
+  font-family: 'Hind', sans-serif;
+  font-size: 26px;
+  text-align: center;
+  margin-top: 10% !important;
+  margin-left: 22% !important;
+  margin-right: 20% !important;
+  width: 55%
 }
 
 img {
+  margin-top: 10% !important;
   display: block;
   margin: auto;
   width: 40%

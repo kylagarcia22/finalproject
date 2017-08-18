@@ -5,7 +5,8 @@ body{
 img{
   display: block;
   margin: auto;
-  width: 40%
+  width: 40%;
+  padding-top: 30px;
 }
 h3 {
   font-family: 'Amaranth', sans-serif ;
@@ -14,29 +15,31 @@ h3 {
 
 h1, h3, p{
   text-align: center;
-  margin: 100px;
-  color: #fff4fd !important;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  color: #212529 !important;
 }
 p {
   font-family: 'Hind', sans-serif ;
   font-size: 18px;
 }
 h1 {
-  font-family: 'Leckerli One', cursive ;
+  font-family: 'georgia', serif ;
   font-size: 100px;
 }
 .right {
   float: right;
-  left: 100%;
+  left: 80%;
   top: 50%;
   height: 0;
   width: 0;
   position: fixed;
-	margin-left: -26.8px;
+  margin-left: -26.8px;
 }
 .left {
   float: left;
-  right: 100%;
+  right: 80%;
 	top: 50%;
 	height: 0;
 	width: 0;

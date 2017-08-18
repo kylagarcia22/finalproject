@@ -3,32 +3,48 @@
   <head>
 
     <meta charset="utf-8">
-    <title>Body Positive!</title>
+    <title> Inspirational Quote </title>
     <link rel="stylesheet" href="slide5.css">
-    <link rel="stylesheet" href="swipe.js">
+    <link rel="stylesheet" href="">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Amaranth:700|Hind|Leckerli+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
   </head>
 
   <body>
 
-    <a href="slide4.html" class="left">
-    <button type="button" class="btn btn-default" aria-label="Left Align">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    </button>
-    </a>
-
-    <a href="slide6.html" class="right">
-    <button type="button" class="btn btn-default" aria-label="Left Align">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    </button>
-    </a>
     <div class="container">
-    <img src="quote.jpg" class="img-fluid" alt="Responsive image" width = "1500">
+      <h2> Life is way too short to spend another day at war with yourself. </h2>
+      <h2 id=quote> Anonymous </h2>
     </div>
 
+  <a href="slide4.html" class="left">
+  <button type="button" class="btn btn-default" aria-label="Left Align">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+  </button>
+  </a>
+
+  <a href="slide6.html" class="right">
+  <button type="button" class="btn btn-default" aria-label="Left Align">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+  </button>
+  </a>
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  
+  <!--Script to link jquery.fullPage.js-->
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+    <!--Script for fullpage.js-->
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#fullpage').fullpage({
+          bigSectionsDestination: top,
+          controlArrows: false,
+          anchors:['header', 'slide1', 'slide2', 'slide3', 'slide4', 'slide5', 'slide6']});});
+    </script>
+
 
   </body>
 </html>

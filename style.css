@@ -1,0 +1,21 @@
+.right {
+  float: right;
+  left: 80%;
+	top: 50%;
+	height: 0;
+	width: 0;
+	position: fixed;
+}
+body{
+  background-color: #c5b5e1 !important;
+}
+h1 {
+  font-family: 'georgia', serif;
+  text-align: center;
+  color: #212529 !important;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 100px;
+
+
+}
