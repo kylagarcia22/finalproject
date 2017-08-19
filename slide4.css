@@ -3,7 +3,7 @@ body{
 }
 
 h1, p{
-  color: #fff4fd !important;
+  color: #292828 !important;
 }
 
 h1 {
@@ -29,7 +29,7 @@ img{
 }
 .right {
   float: right;
-  left: 80%;
+  left: 90%;
   top: 50%;
   height: 0;
   width: 0;
@@ -38,7 +38,7 @@ img{
 }
 .left {
   float: left;
-  right: 80%;
+  right: 90%;
 	top: 50%;
 	height: 0;
 	width: 0;

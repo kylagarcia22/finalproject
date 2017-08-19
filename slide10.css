@@ -4,7 +4,7 @@ body{
 
 .left {
   float: left;
-  right: 80%;
+  right: 90%;
 	top: 50%;
 	height: 0;
 	width: 0;
@@ -37,5 +37,5 @@ img {
 
 h1, h2, h3, p {
   text-align: center;
-  color: #fff4fd !important;
+    color: #292828 !important;
 }

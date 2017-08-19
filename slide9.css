@@ -4,7 +4,7 @@ body{
 
 .right {
   float: right;
-  left: 80%;
+  left: 90%;
   top: 50%;
   height: 0;
   width: 0;
@@ -13,7 +13,7 @@ body{
 }
 .left {
   float: left;
-  right: 80%;
+  right: 90%;
 	top: 50%;
 	height: 0;
 	width: 0;
@@ -21,7 +21,7 @@ body{
 }
 
 h1, p{
-  color: #fff4fd !important;
+  color: #292828 !important;
 }
 
 h1{
@@ -34,6 +34,15 @@ h1{
 ul,li{
   font-family: 'Hind', sans-serif;
   font-size: 18px;
+}
+
+.blogs {
+  font-size: 26px;
+  text-align: center;
+  margin-top: 10% !important;
+  margin-left: 22% !important;
+  margin-right: 20% !important;
+  width: 55%
 }
 
 }
