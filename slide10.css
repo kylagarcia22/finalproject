@@ -10,20 +10,29 @@ body{
 	width: 0;
 	position: fixed;
 }
+
 h1 {
-  font-family: 'Leckerli One', cursive;
+  font-family: 'Cardo';
   font-size: 100px;
+  margin-top: 25px;
 }
 
+h3 {
+  font-family: 'Josefin Sans';
+  font-size: 40px;
+}
+
+h2 {
+  font-family: 'Cardo';
+  font-size: 45px;
+  margin-top: 40px;
+}
 
 p {
-  font-family: 'Hind', sans-serif;
-  font-size: 18px;
-}
-
-h2, h3 {
-  font-family: 'Amaranth', sans-serif;
-  font-size: 40px;
+  font-family: 'Josefin Sans';
+  font-size: 19px;
+  margin-top: 80px;
+  margin-left: 20px;
 }
 
 .img-circle {
@@ -32,10 +41,37 @@ h2, h3 {
 
 img {
   display: block;
-  margin: auto;
+  margin: 20px;
+}
+
+.natalie, .kyla {
+  float: left;
+}
+
+.mari, .drisha {
+  float: right;
+}
+
+.kylahead, .nataliehead {
+  margin-left: 25px;
+}
+
+.marihead {
+  margin-left: 840px;
+}
+
+.drishahead {
+  margin-left: 1010px;
+}
+
+h1, h3 {
+  text-align: center;
 }
 
 h1, h2, h3, p {
-  text-align: center;
-    color: #292828 !important;
+  color: #241f26;
+}
+
+a {
+  color: gray;
 }

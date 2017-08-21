@@ -1,4 +1,4 @@
-body{
+body {
   background-color: #c5b5e1 !important;
 }
 
@@ -11,6 +11,7 @@ body{
   position: fixed;
 	margin-left: -26.8px;
 }
+
 .left {
   float: left;
   right: 90%;
@@ -20,33 +21,32 @@ body{
 	position: fixed;
 }
 
-h1, p{
-  color: #292828 !important;
+h1, ul, li {
+  color: #241f26 !important;
 }
 
-h1{
-  font-family: 'Leckerli One', cursive;
+h1 {
+  font-family: 'Cardo';
   font-size: 100px;
   text-align: center;
-  margin: 50px ;
+  margin: 5%;
 }
 
-ul,li{
-  font-family: 'Hind', sans-serif;
-  font-size: 18px;
+ul, li {
+  font-family: 'Josefin Sans';
+  font-size: 19px;
 }
 
-.blogs {
-  font-size: 26px;
-  text-align: center;
-  margin-top: 10% !important;
-  margin-left: 22% !important;
-  margin-right: 20% !important;
-  width: 55%
+.fade {
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
 }
 
-}
-@media screen and (max-device-width: 480px){
+  .fade:hover {
+    opacity: 0.5;
+  }
 
-
+.thumbnail {
 }
