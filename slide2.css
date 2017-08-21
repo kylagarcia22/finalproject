@@ -24,7 +24,7 @@ h1, p{
 }
 
 h1 {
-  font-family: 'Leckerli One', cursive !important;
+  font-family: 'Cardo' !important;
   font-size: 90px !important;
   text-align: center;
   margin: 50px;
@@ -41,7 +41,7 @@ h1 {
 }
 
 p{
-  font-family: 'Hind', sans-serif !important;
+  font-family: 'Josefin Sans' !important;
   font-size: 26px;
   text-align: center;
   margin-top: 14.8% !important;

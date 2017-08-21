@@ -30,13 +30,13 @@ h1, p{
 }
 
 h1 {
-  font-family: 'Leckerli One', cursive !important;
+  font-family: 'Cardo' !important;
   font-size: 90px !important;
   text-align: center;
 }
 
 p {
-  font-family: 'Hind', sans-serif;
+  font-family: 'Josefin Sans';
   font-size: 26px;
   text-align: center;
   margin-top: 10% !important;
