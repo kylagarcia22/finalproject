@@ -25,7 +25,7 @@ p{
 img{
   display: block;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 .right {
   float: right;
@@ -43,4 +43,32 @@ img{
 	height: 0;
 	width: 0;
 	position: fixed;
+}
+
+.nav{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav_li{
+  float: left;
+}
+
+.nav_li a{
+  display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav_li a:hover:not(.active) {
+    background-color: #111;
+}
+
+#brand{
+  color: white;
 }
