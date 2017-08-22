@@ -44,17 +44,14 @@ h1,h3,p {
 }
 h1 {
   font-family: 'Cardo';
-<<<<<<< HEAD
   font-size: 95px;
-=======
+
   font-size: 100px;
->>>>>>> 08b4010e5835097fb3914a17bd72c638aeb21c58
   text-align: center;
   margin: 50px;
 }
 
 h3 {
-<<<<<<< HEAD
   font-family: 'Cardo';
   font-size: 75px;
 }
@@ -102,7 +99,6 @@ p,li{
 .paragraph {
   width: 75%;
   margin-left: 12%;
-=======
   font-family: 'Cardo', sans-serif;
   font-size: 60px;
 }
@@ -115,7 +111,6 @@ p{
 li{
   font-family: 'Josefin Sans', sans-serif;
   font-size: 18px;
->>>>>>> 08b4010e5835097fb3914a17bd72c638aeb21c58
 }
 
 .nav{
