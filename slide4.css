@@ -7,28 +7,42 @@ h1, p{
 }
 
 h1 {
-  font-family: 'Cardo' !important;
-
+  font-family: 'Cardo'!important;
   font-size: 95px !important;
-
-  font-size: 100px !important;
-  text-align: center;
+  text-align: center !important;
+  margin-top: 6% !important;
 }
 
 p{
   font-family: 'Josefin Sans';
   font-size: 26px;
   text-align: center;
-  margin-top: 10% !important;
-  margin-left: 22% !important;
+  margin-top: -2% !important;
+  margin-left: 15% !important;
   margin-right: 20% !important;
-  width: 55%
+  width: 70% !important;
+  margin-bottom: 2% !important;
 }
 
-img{
+#demi{
   display: block;
   margin: auto;
   margin-top: 2%;
+
+}
+
+#sonny, #camprock, #pp {
+  margin: auto;
+  margin-top: 2%;
+  display:block;
+  padding-left: 30px;
+  margin-left: 99%;
+
+}
+
+#video {
+  display:block;
+  margin: 0 auto;
 }
 .right {
   float: right;
@@ -64,7 +78,7 @@ img{
   font-family: 'Cardo';
   font-size: 15px;
   display: block;
-    color: #818D92;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -77,4 +91,9 @@ img{
 
 #brand{
   color: white;
+}
+
+ iframe{
+     margin: 0 auto;
+     display: block;
 }

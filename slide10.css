@@ -14,7 +14,7 @@ body{
 h1 {
   font-family: 'Cardo';
   font-size: 95px;
-  margin-top: 25px;
+  margin-top: 55px;
 }
 
 h3 {
@@ -25,14 +25,13 @@ h3 {
 h2 {
   font-family: 'Cardo';
   font-size: 45px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 p {
   font-family: 'Josefin Sans';
-  font-size: 26px;
-  margin-top: 80px;
-  margin-left: 20px;
+  font-size: 25px;
+  margin: 20px;
 }
 
 .img-circle {
@@ -44,11 +43,19 @@ img {
   margin: 20px;
 }
 
-.natalie, .kyla {
+.kyla {
   float: left;
 }
 
-.mari, .drisha {
+.natalie {
+  float: left;
+}
+
+.drisha {
+  float: right;
+}
+
+.mari {
   float: right;
 }
 
@@ -57,11 +64,11 @@ img {
 }
 
 .marihead {
-  margin-left: 840px;
+  margin-left: 620px;
 }
 
 .drishahead {
-  margin-left: 1010px;
+  margin-left: 785px;
 }
 
 h1, h3 {
@@ -71,6 +78,7 @@ h1, h3 {
 h1, h2, h3, p {
   color: #241f26;
 }
+
 
 a {
   color: gray;
@@ -91,7 +99,7 @@ a {
   font-family: 'Cardo';
   font-size: 15px;
   display: block;
-    color: #818D92;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -99,7 +107,7 @@ a {
 
 .li_nav a:hover:not(.active) {
     background-color: #111;
-    color: #818D92;
+    color: white;
 }
 
 #brand{

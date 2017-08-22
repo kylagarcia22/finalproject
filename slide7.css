@@ -14,7 +14,7 @@ h3 {
   font-size: 60px;
 }
 
-h1, h3, p{
+h3, p{
   text-align: center;
   margin-left: 100px;
   margin-right: 100px;
@@ -27,15 +27,12 @@ p {
   width: 75%;
   margin-left: 12%;
 }
+
 h1 {
-  font-family: 'Cardo' !important ;
-  font-size: 95px;
-  font-family: 'Josefin Sans';
-  font-size: 18px;
-}
-h1 {
-  font-family: 'Cardo';
-  font-size: 100px;
+  font-family: 'Cardo' !important;
+  font-size: 95px !important;
+  text-align: center !important;
+  margin-top: -16% !important;
 }
 .right {
   float: right;
@@ -71,7 +68,7 @@ h1 {
   font-family: 'Cardo';
   font-size: 15px;
   display: block;
-    color: #818D92;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;

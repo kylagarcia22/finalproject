@@ -34,39 +34,43 @@ h1 {
   font-family: 'Cardo'!important;
   font-size: 95px !important;
   text-align: center !important;
-  margin-bottom: 20% !important;
+  margin-top: 6% !important;
 }
 
 p {
   font-family: 'Josefin Sans';
   font-size: 26px;
   text-align: center;
-  margin-top: 10% !important;
+  margin-top: 5% !important;
   margin-left: 22% !important;
   margin-right: 20% !important;
   width: 55%
 }
 
 img {
-  margin-top: 10% !important;
+  margin-top: 4% !important;
   display: block;
   width: 40% !important;
-  margin: auto !important;
 }
 
-#pic,#rant,#open{
+#pic,#open{
   display: block;
-  width: 250px !important;
-  height: 250px;
   margin:auto;
 }
 
 #pic {
   margin-top: 5% !important;
+  width: 350px !important;
+  height: 350px !important;
 }
 
 #rant {
-  margin-top: 3% !important;
+  margin-top: 3% ;
+  display: block;
+  width: 350px !important;
+  height: 350px !important;
+  margin:auto;
+
 }
 
 #tie {
@@ -79,6 +83,8 @@ img {
 
 #open {
   margin-top: 3% !important;
+  width: 350px !important;
+  height: 350px !important;
 }
 
 .nav{
@@ -97,48 +103,10 @@ img {
   font-family: 'Cardo';
   font-size: 15px;
   display: block;
-    color: #818D92;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.li_nav a:hover:not(.active) {
-    background-color: #111;
-    color: #818D92;
-}
-
-#brand{
   color: white;
-}
-
-.page {
-  padding-top: 50px;
-  padding-right: 250px;
-  padding-bottom: 50px;
-  padding-left: 200px;
-}
-
-.nav{
-  list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #4B3B40;
-}
-
-.li_nav{
-  float: left;
-}
-
-.li_nav a{
-  font-family: 'Cardo';
-  font-size: 15px;
-  display: block;
-    color: #818D92;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .li_nav a:hover:not(.active) {
