@@ -8,7 +8,7 @@ body {
   top: 50%;
   height: 0;
   width: 0;
-  position: fixed;
+  position: fixed !important;
 	margin-left: -26.8px;
 }
 .left {
@@ -17,10 +17,10 @@ body {
 	top: 50%;
 	height: 0;
 	width: 0;
-	position: fixed;
+	position: fixed !important;
 }
 
-h1, ul, li {
+h1, h2 {
   color: #241f26 !important;
 }
 
@@ -28,12 +28,14 @@ h1 {
   font-family: 'Cardo';
   font-size: 95px;
   text-align: center;
-  margin: 5%;
+  margin: 4%;
 }
 
-ul, li {
+h2 {
   font-family: 'Josefin Sans';
-  font-size: 19px;
+  text-align: center;
+  font-size: 35px;
+  margin: 4%;
 }
 
 .fade {
@@ -74,7 +76,7 @@ ul, li {
   font-family: 'Cardo';
   font-size: 15px;
   display: block;
-    color: #818D92;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -82,7 +84,7 @@ ul, li {
 
 .li_nav a:hover:not(.active) {
     background-color: #111;
-    color: #818D92;
+    color: white;
 }
 
 #brand{
