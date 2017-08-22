@@ -24,24 +24,69 @@ h1, h3, p, li{
   color: #292828 !important;
 }
 
+h1,h3,p {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+#treatment,#causes,#symptoms {
+  text-align: center;
+  margin: auto;
+}
 h1 {
-  font-family: 'Leckerli One', cursive;
-  font-size: 100px;
+  font-family: 'Cardo';
+  font-size: 95px;
   text-align: center;
   margin: 50px;
 }
 
 h3 {
-  font-family: 'Amaranth', sans-serif;
-  font-size: 60px;
+  font-family: 'Cardo';
+  font-size: 75px;
 }
 
-p{
-  font-family: 'Hind', sans-serif;
-  font-size: 18px;
+p,li{
+  font-family: 'Josefin Sans';
+  font-size: 26px;
 }
 
-li{
-  font-family: 'Hind', sans-serif;
-  font-size: 18px;
+.nav{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4B3B40;
+}
+
+.li_nav{
+  float: left;
+}
+
+.li_nav a{
+  font-family: 'Cardo';
+  font-size: 15px;
+  display: block;
+    color: #818D92;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.li_nav a:hover:not(.active) {
+    background-color: #111;
+    color: #818D92;
+}
+
+#lol {
+  margin-top: 1%;
+}
+
+#brand{
+  color: white;
+}
+
+.paragraph {
+  width: 75%;
+  margin-left: 12%;
 }

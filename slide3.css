@@ -21,7 +21,7 @@ body{
   top: 50%;
   height: 0;
   width: 0;
-  position: fixed;
+  position: fixed !important;
 	margin-left: -26.8px;
 }
 
@@ -30,13 +30,13 @@ h1, p{
 }
 
 h1 {
-  font-family: 'Leckerli One', cursive !important;
-  font-size: 90px !important;
-  text-align: center;
+  font-family: 'Cardo'!important;
+  font-size: 95px !important;
+  text-align: center !important;
 }
 
 p {
-  font-family: 'Hind', sans-serif;
+  font-family: 'Josefin Sans';
   font-size: 26px;
   text-align: center;
   margin-top: 10% !important;
@@ -48,6 +48,71 @@ p {
 img {
   margin-top: 10% !important;
   display: block;
-  margin: auto;
-  width: 40%
+  width: 40% !important;
+  margin: auto !important;
+}
+
+#pic,#rant,#open{
+  display: block;
+  width: 250px !important;
+  height: 250px;
+  margin:auto;
+}
+
+#pic {
+  margin-top: 5% !important;
+}
+
+#rant {
+  margin-top: 3% !important;
+}
+
+#tie {
+  display: block;
+  margin-top: 3% !important;
+  width: 350px;
+  height: 300px;
+  margin:auto;
+}
+
+#open {
+  margin-top: 3% !important;
+}
+
+.nav{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4B3B40;
+}
+
+.li_nav{
+  float: left;
+}
+
+.li_nav a{
+  font-family: 'Cardo';
+  font-size: 15px;
+  display: block;
+    color: #818D92;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.li_nav a:hover:not(.active) {
+    background-color: #111;
+    color: #818D92;
+}
+
+#brand{
+  color: white;
+}
+
+.page {
+  padding-top: 50px;
+  padding-right: 250px;
+  padding-bottom: 50px;
+  padding-left: 200px;
 }

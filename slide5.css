@@ -23,3 +23,42 @@ body{
 
 
 }
+
+img{
+  display: block;
+  margin-left: 110px;
+  margin-top: 75px;
+  width: 80%;
+  height: 100%;
+}
+
+.nav{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4B3B40;
+}
+
+.li_nav{
+  float: left;
+}
+
+.li_nav a{
+  font-family: 'Cardo';
+  font-size: 15px;
+  display: block;
+    color: #818D92;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.li_nav a:hover:not(.active) {
+    background-color: #111;
+    color: #818D92;
+}
+
+#brand{
+  color: white;
+}
