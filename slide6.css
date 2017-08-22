@@ -1,4 +1,4 @@
-body{
+body {
   background-color: #c5b5e1 !important;
 }
 
@@ -11,6 +11,7 @@ body{
   position: fixed;
 	margin-left: -26.8px;
 }
+
 .left {
   float: left;
   right: 90%;
@@ -20,25 +21,27 @@ body{
 	position: fixed;
 }
 
-h1, h3, p, li{
+h1, h3, p, li, ul {
   color: #292828 !important;
 }
 
-h1,h3,p {
-  text-align: center;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 20px;
-}
+/*h1, h3, p {*/
+  /*text-align: center;*/
+  /*margin-left: 100px;*/
+  /*margin-right: 100px;*/
+  /*margin-top: 20px;*/
+/*}*/
+
 #treatment,#causes,#symptoms {
   text-align: center;
   margin: auto;
 }
+
 h1 {
   font-family: 'Cardo';
   font-size: 95px;
   text-align: center;
-  margin: 50px;
+  margin: 35px;
 }
 
 h3 {
@@ -46,7 +49,7 @@ h3 {
   font-size: 75px;
 }
 
-p,li{
+p, li{
   font-family: 'Josefin Sans';
   font-size: 26px;
 }
@@ -75,11 +78,7 @@ p,li{
 
 .li_nav a:hover:not(.active) {
     background-color: #111;
-    color: #818D92;
-}
-
-#lol {
-  margin-top: 1%;
+    color: white;
 }
 
 #brand{
@@ -89,4 +88,9 @@ p,li{
 .paragraph {
   width: 75%;
   margin-left: 12%;
+}
+
+img {
+  display: block;
+  margin: auto;
 }
