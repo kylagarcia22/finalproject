@@ -77,7 +77,11 @@ a {
 }
 
 .nav{
+<<<<<<< HEAD
   list-style-type: none;
+=======
+    list-style-type: none;
+>>>>>>> 08b4010e5835097fb3914a17bd72c638aeb21c58
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -106,9 +110,12 @@ a {
 #brand{
   color: white;
 }
+<<<<<<< HEAD
 .fullpage{
   padding-top: 50px;
   padding-right: 250px;
   padding-bottom: 50px;
   padding-left: 200px;
 }
+=======
+>>>>>>> 08b4010e5835097fb3914a17bd72c638aeb21c58

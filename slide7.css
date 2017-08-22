@@ -9,7 +9,11 @@ img{
   padding-top: 30px;
 }
 h3 {
+<<<<<<< HEAD
   font-family: 'Cardo' !important ;
+=======
+  font-family: 'Cardo';
+>>>>>>> 08b4010e5835097fb3914a17bd72c638aeb21c58
   font-size: 60px;
 }
 
@@ -21,6 +25,7 @@ h1, h3, p{
   color: #292828 !important;
 }
 p {
+<<<<<<< HEAD
   font-family: 'Josefin Sans' !important ;
   font-size: 26px;
   width: 75%;
@@ -29,6 +34,14 @@ p {
 h1 {
   font-family: 'Cardo' !important ;
   font-size: 95px;
+=======
+  font-family: 'Josefin Sans';
+  font-size: 18px;
+}
+h1 {
+  font-family: 'Cardo';
+  font-size: 100px;
+>>>>>>> 08b4010e5835097fb3914a17bd72c638aeb21c58
 }
 .right {
   float: right;

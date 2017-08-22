@@ -55,6 +55,7 @@ ul, li {
     margin: 0;
     padding: 0;
     overflow: hidden;
+<<<<<<< HEAD
     background-color: #333;
 }
 
@@ -63,6 +64,8 @@ ul, li {
     margin: 0;
     padding: 0;
     overflow: hidden;
+=======
+>>>>>>> 08b4010e5835097fb3914a17bd72c638aeb21c58
     background-color: #4B3B40;
 }
 
@@ -88,6 +91,7 @@ ul, li {
 #brand{
   color: white;
 }
+<<<<<<< HEAD
 
 #fullpage{
   padding-top: 50px;
@@ -95,3 +99,5 @@ ul, li {
   padding-bottom: 50px;
   padding-left: 200px;
 }
+=======
+>>>>>>> 08b4010e5835097fb3914a17bd72c638aeb21c58

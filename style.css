@@ -12,7 +12,11 @@ body{
   background-color: #c5b5e1 !important;
 }
 h1 {
+<<<<<<< HEAD
   font-family: 'Cardo' !important;
+=======
+  font-family: 'Cardo';
+>>>>>>> 08b4010e5835097fb3914a17bd72c638aeb21c58
   text-align: center;
   color: #292828 !important;
   margin-top: 20px;
@@ -22,6 +26,37 @@ h1 {
 .sub {
   margin-top: 20% !important;
   font-size: 75px;
+}
+
+.nav{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4B3B40;
+}
+
+.li_nav{
+  float: left;
+}
+
+.li_nav a{
+  font-family: 'Cardo';
+  font-size: 15px;
+  display: block;
+    color: #818D92;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.li_nav a:hover:not(.active) {
+    background-color: #111;
+    color: #818D92;
+}
+
+#brand{
+  color: white;
 }
 
 .nav{
