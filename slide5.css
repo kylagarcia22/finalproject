@@ -1,5 +1,8 @@
 body{
-  background-color: #c5b5e1 !important;
+  background-image: url("http://68.media.tumblr.com/tumblr_luqb7i868x1qzbl1no1_1280.gif");
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
 }
 
 .right {
@@ -11,6 +14,7 @@ body{
   position: fixed;
 	margin-left: -26.8px;
 }
+
 .left {
   float: left;
   right: 90%;
@@ -18,10 +22,6 @@ body{
 	height: 0;
 	width: 0;
 	position: fixed;
-}
-img{
-  width: 400px;
-  height: 200px;
 }
 
 h1 {
@@ -33,7 +33,8 @@ h1 {
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   font-size: 95px !important;
-  width: 80% !important;
+  width: 70% !important;
+  letter-spacing:
 }
 
 h2 {
@@ -43,10 +44,15 @@ h2 {
   left: 50%;
   font-size: 90px !important;
   margin-top: 15% !important;
-
 }
 
-.nav{
+h1, h2 {
+  color: white !important;
+  letter-spacing: 3px;
+  text-shadow: 4px 4px #7b54a8;
+}
+
+.nav {
   list-style-type: none;
     margin: 0;
     padding: 0;
@@ -54,11 +60,11 @@ h2 {
     background-color: #4B3B40;
 }
 
-.li_nav{
+.li_nav {
   float: left;
 }
 
-.li_nav a{
+.li_nav a {
   font-family: 'Cardo';
   font-size: 15px;
   display: block;
@@ -73,6 +79,6 @@ h2 {
     color: white;
 }
 
-#brand{
+#brand {
   color: white;
 }
