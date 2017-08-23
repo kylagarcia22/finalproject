@@ -24,11 +24,16 @@ p{
   margin-bottom: 2% !important;
 }
 
-#demi{
+#demi,#demi2017{
   display: block;
   margin: auto;
   margin-top: 2%;
 
+}
+
+#lastdemi {
+  display:block;
+  margin-top: 5% !important;
 }
 
 #sonny, #camprock, #pp {

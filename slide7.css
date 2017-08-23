@@ -82,3 +82,10 @@ h1 {
 #brand{
   color: white;
 }
+#main {
+  display: block;
+  margin: auto;
+  width: 40%;
+  padding-top: 30px;
+
+}
