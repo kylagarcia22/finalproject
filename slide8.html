@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link href='http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   </head>
 
   <body>
@@ -26,6 +28,14 @@
 
         </ul>
 
+      <h1> Camera </h1>
+      <br>
+      <h3> Click the buttons to take pictures with different filters! </h3>
+      <h3>Press the "s" key to save your picture!</h3>
+
+    <iframe src="https://alpha.editor.p5js.org/full/rk9Wyj_O-" style="width: 700px; height: 500px;"></iframe>
+
+
     <h3>Press the "s" key to save your picture!</h3>
 
     <iframe src="https://alpha.editor.p5js.org/full/rk9Wyj_O-" style="width: 700px; height: 500px;"></iframe>
@@ -40,7 +50,16 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       </button>
     </a>
-
+    <!--Script to link jquery.fullPage.js-->
+        <script type="text/javascript" src="jquery.fullPage.js"></script>
+        <!--Script for fullpage.js-->
+        <script type="text/javascript">
+          $(document).ready(function() {
+            $('#fullpage').fullpage({
+              bigSectionsDestination: top,
+              controlArrows: false,
+              anchors:['header', 'slide1', 'slide2', 'slide3', 'slide4', 'slide5', 'slide6']});});
+        </script>
 
   </body>
 </html>
