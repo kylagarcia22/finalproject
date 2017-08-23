@@ -24,17 +24,6 @@ h1 {
   font-size: 75px;
 }
 
-.nav{
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #4B3B40;
-}
-
-.li_nav{
-  float: left;
-}
-
 .li_nav a{
   font-family: 'Cardo';
   font-size: 15px;
@@ -50,10 +39,6 @@ h1 {
     color: #818D92;
 }
 
-#brand{
-  color: white;
-}
-
 .nav{
     margin: 0;
     padding: 0;
@@ -65,20 +50,6 @@ h1 {
   float: left;
 }
 
-.li_nav a{
-  font-family: 'Cardo';
-  font-size: 15px;
-  display: block;
-    color: #818D92;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.li_nav a:hover:not(.active) {
-    background-color: #111;
-    color: #818D92;
-}
 
 #brand{
   color: white;
@@ -89,7 +60,7 @@ h1 {
   position: absolute;
    top: 50%;
    left: 50%;
-   width: 500px;
+   width: 400px;
    height: 500px;
    margin-top: -220px; /* Half the height */
    margin-left: -250px;

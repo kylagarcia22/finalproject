@@ -111,7 +111,7 @@ img {
 
 .li_nav a:hover:not(.active) {
     background-color: #111;
-    color: #818D92;
+    color: white;
 }
 
 #brand{

@@ -32,7 +32,7 @@ h1 {
   font-family: 'Cardo' !important;
   font-size: 95px !important;
   text-align: center !important;
-  margin-top: -16% !important;
+  margin-top: -2% !important;
 }
 .right {
   float: right;
@@ -76,7 +76,7 @@ h1 {
 
 .li_nav a:hover:not(.active) {
     background-color: #111;
-    color: #818D92;
+    color: white;
 }
 
 #brand{
