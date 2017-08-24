@@ -58,7 +58,7 @@ h1 {
   font-family: 'Cardo' !important;
   font-size: 95px !important;
   text-align: center !important;
-  margin-top: 5% !important;
+  margin-top: 8% !important;
 }
 
 #heading {
@@ -67,9 +67,9 @@ h1 {
 }
 
 .pic {
-  margin-top: 4% !important;
+  margin-top: -20% !important;
   display: block;
-  width: 40% !important;
+  margin-left: 28%;
 
 }
 
